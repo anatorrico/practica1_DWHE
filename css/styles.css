@@ -1,0 +1,39 @@
+/* Tipografías
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+/* colores
+negro: #222222 
+blanco: #FFFFFF
+azul: #83FEE0
+morado: #D59FFF 
+*/
+body {
+    background-color: #222222 ;
+}
+
+header {
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    height: 6em;
+}
+
+.navbar-brand > img {
+    height: 3em;
+    width: 100%;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #D59FFF;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+}
