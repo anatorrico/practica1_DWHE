@@ -20,7 +20,7 @@ header {
 
 .navbar {
     background-color: #FFFFFF;
-    height: 6em;
+    /* height: 6em; */
 }
 
 .navbar-brand > img {
