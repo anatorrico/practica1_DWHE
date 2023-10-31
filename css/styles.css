@@ -8,6 +8,14 @@ blanco: #FFFFFF
 azul: #83FEE0
 morado: #D59FFF 
 */
+
+h1 {
+    margin: 2em 0;
+    font-family:'Merriweather', serif;
+    font-size: 4em;
+    color: #FFFFFF;
+}
+
 body {
     background-color: #222222 ;
 }
@@ -57,4 +65,39 @@ header {
 .bd-placeholder-img{
     height: calc(100vh - 102px);
     width: 100%;
+}
+
+section{
+    min-height: 100vh;
+    margin: 1em 3em;
+}
+
+#footer {
+    height: 30vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer > img {
+    height: 10vh;
+}
+
+.socials{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials > a > i {
+    font-size: 2em;
+    color: #222222;
+}
+
+.socials > a > i:hover {
+    color: #D59FFF;
 }
