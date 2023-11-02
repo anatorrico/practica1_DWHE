@@ -28,6 +28,10 @@ header {
 .navbar {
     background-color: #FFFFFF;
     padding: 1em;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
 }
 
 .navbar-collapse {
@@ -60,6 +64,7 @@ header {
 
 #carouselAutoplaying {
     height: calc(100vh - 102px);
+    padding-top: 102px;
 }
 
 .bd-placeholder-img{
@@ -70,6 +75,25 @@ header {
 section{
     min-height: 100vh;
     margin: 1em 3em;
+}
+#aboutus h2{
+    color: #FFFFFF;
+    font-family:'Merriweather', serif;
+    font-size: 1.5em;
+}
+section >h2 {
+    color: #FFFFFF;
+    font-family:'Merriweather', serif;
+    font-size: 1.5em;
+}
+section > p{
+    color: #FFFFFF;
+    font-family:'Merriweather', serif;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+#aboutus{
+    display: flex;
 }
 
 #footer {
