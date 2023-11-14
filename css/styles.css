@@ -77,7 +77,7 @@ section{
     margin: 1em 3em;
 }
 
-.cartel-movimiento{
+.movimiento-aboutus{
     background-color: #83FEE0;
     width: 100%;
     display: flex;
@@ -112,6 +112,14 @@ section > p{
     font-size: 1.5em;
     margin-top: 1em;
 }
+.movimiento-contactus{
+    background-color: #D59FFF ;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+
 
 #footer {
     height: 30vh;
