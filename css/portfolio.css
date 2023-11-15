@@ -2,13 +2,19 @@ header {
     height: fit-content;
 }
 
+section {
+    margin: 0em;
+}
+
 #whatwedo {
+    margin: 0 3em;
     height: 100vh;
     color: white;
 }
 
 #whatwedo > h1 {
-    margin: 2em 0em 0.5em 0em;
+    margin: 4em 0em 0.5em 0em;
+    font-size: 2em;
 }
 
 #carouselAutoplaying1 > h2 {
@@ -20,11 +26,11 @@ header {
 #stories {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #col {
-    width: 30%;
+    width: 300px;
 }
 
 .carousel-item {
@@ -34,4 +40,47 @@ header {
 .carousel-item > img {
     width: 240px;
     border-radius: 3%;
+}
+
+.movimiento-portfolio{
+    background-color: #FFC857;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#galeria {
+    margin: 3em 1.5em;
+}
+
+#galeria .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#galeria .col1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    padding: 0.5em 0 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
