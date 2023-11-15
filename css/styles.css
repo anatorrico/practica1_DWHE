@@ -112,14 +112,52 @@ section > p{
     font-size: 1.5em;
     margin-top: 1em;
 }
+
 .movimiento-contactus{
     background-color: #D59FFF ;
     width: 100%;
     display: flex;
     text-align: center;
 }
-
-.form
+.contact{
+    color: #FFFFFF;
+    font-family:'Merriweather', serif;
+    font-size: 2em; 
+    display: flex;
+    text-align: center;
+    padding: 2em ;
+}
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D59FFF;
+    font-family:'Merriweather', serif;
+    margin-top: 3em;
+    width: fit-content;
+    
+  }
+.escribenos{
+    font-family:'Merriweather', serif;
+    color: #542c73;
+    font-size: 2em;
+}
+ .nombre, .email, .why{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    color: #542c73;
+ }
+.boton{
+   background-color: #542c73;
+   color: #D59FFF;
+}
+.boton:hover{
+    background-color: #D59FFF;
+   color: #542c73;
+   transition: .2s;
+   
+}
 
 #footer {
     height: 30vh;
