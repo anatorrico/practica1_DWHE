@@ -51,21 +51,24 @@ section {
 
 #galeria {
     margin: 3em 1.5em;
+    width: 100%;
 }
 
 #galeria .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 #galeria .col1 {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 400px;
 }
 
 .project {
+    margin-top: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -89,11 +92,14 @@ section {
     font-family: 'Merriweather', serif;
     font-weight: bold;
     font-size: 2em;
+    padding-top: 0.5em;
+    text-align: left;
 }
 
 .description > p {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
+    text-align: left;
 }
 
 h3.pur {
