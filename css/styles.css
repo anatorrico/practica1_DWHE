@@ -10,7 +10,7 @@ morado: #D59FFF
 */
 
 h1 {
-    margin: 2em 0;
+    margin: 2em;
     font-family:'Merriweather', serif;
     font-size: 4em;
     color: #FFFFFF;
@@ -74,7 +74,7 @@ header {
 
 section{
     min-height: 100vh;
-    margin: 1em 3em;
+    margin: 1em 0;
 }
 
 .movimiento-aboutus{
