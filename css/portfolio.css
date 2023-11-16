@@ -59,14 +59,14 @@ section {
 }
 
 #galeria {
-    margin: 3em 1.5em;
+    margin: 3em;
     width: 100%;
 }
 
 #galeria .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
 }
 
@@ -201,6 +201,53 @@ button.btn.btn-primary {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2em;
     padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    #galeria .col1 {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .description > h3 {
+        font-size: 1.5em;
+    }
+    .description > p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    #whatwedo {
+        display: none;
+    }
+
+    #portfolio {
+        margin-top: 102px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    #galeria .row {
+        flex-direction: column;
+    }
+
+    #galeria .col1 {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project {
+        width: 80vw;
+        /* align-items: center; */
+    }
 }
 
 
