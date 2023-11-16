@@ -67,9 +67,14 @@ header {
     padding-top: 102px;
 }
 
-.bd-placeholder-img{
+.carousel-item {
     height: calc(100vh - 102px);
     width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
 }
 
 section{
