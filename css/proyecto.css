@@ -56,6 +56,7 @@ header {
     width: 100%;
     display: flex;
     text-align: center;
+    margin-top: 2em;
 }
 .texto{
     color: #FFFFFF;
@@ -66,6 +67,16 @@ img{
     margin:2em 0;
 }
 .cubiertas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.portadas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.portadas div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -108,4 +119,10 @@ img{
 }
 .asesinato_enel_orient:hover .abierto{
     opacity: 1;
+}
+.explicacion{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#FFFFFF;
+    font-size: 1.5em;
+    margin:2em 10em;
 }
