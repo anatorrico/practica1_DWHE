@@ -10,53 +10,26 @@ body {
 }
 
 header {
-    height: 20vh;
-    font-family: 'Roboto Condensed', sans-serif;
+    height: 10vh;
+    margin: 1em;
 }
-
-.navbar {
-    background-color: #FFFFFF;
-    padding: 1em;
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    width: 100%;
+header a{
+    color: #FFFFFF;
+    font-family:'Merriweather', serif;
+    font-size: 1em;
+    text-decoration: none;
+    margin-top: 2em;
 }
-
-.navbar-collapse {
-    justify-content: flex-end;
+header a:hover{
+    color:#E56B70;
+    transition: .3;
 }
-
-.navbar-brand > img {
-    height: 3em;
-    width: 100%;
-}
-
-.navbar-nav {
-    --bs-nav-link-hover-color: #D59FFF;
-    align-items: flex-end;
-}
-
-#navbarNavAltMarkup {
-    font-size: 2em;
-}
-
-.navbar-toggler {
-    border: none;
-    --bs-navbar-toggler-hover-border: none;
-}
-
-.navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-}
-
 .movimiento-proyecto{
     background-color: #E56B70;
     width: 100%;
     display: flex;
     text-align: center;
-    margin-top: 2em;
+    
 }
 .texto{
     color: #FFFFFF;
