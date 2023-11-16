@@ -14,6 +14,7 @@ h1 {
     font-family:'Merriweather', serif;
     font-size: 4em;
     color: #FFFFFF;
+    padding-top: 2em;
 }
 
 body {
@@ -64,28 +65,18 @@ header {
 
 #carouselAutoplaying {
     height: calc(100vh - 102px);
-    margin-top: 102px;
 }
-
-.carousel-inner {
-    
-}
-
 .carousel-item {
-    height: calc(100vh - 102px);
     width: 100%;
-    
 }
 
 .carousel-item img {
     width: 100%;
-    max-height: auto;
     object-position: 50% 50%;
     display: flex;
     align-self: center;
     
 }
-
 section{
     min-height: 100vh;
     margin: 1em 0;
@@ -176,13 +167,12 @@ section > p{
 }
 .form {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
     background-color: #D59FFF;
     font-family:'Merriweather', serif;
     width: fit-content;
     border-radius: 1%;
-    padding: 2em;
+    padding: 2em 6em;
     
   }
 .escribenos{
@@ -195,6 +185,7 @@ section > p{
     display: flex;
     flex-direction: column;
     color: #542c73;
+    font-size: 1em;
  }
 .boton{
    background-color: #542c73;
@@ -236,3 +227,117 @@ section > p{
 .socials > a > i:hover {
     color: #D59FFF;
 }
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 50vh;
+    }
+    #carouselAutoplaying {
+        height: calc(50vh - 102px);
+    }
+    h1 {
+        margin: 1em;
+        font-size: 3em;
+    }
+    .form {
+    padding: 2em 7em;
+    }
+    .nombre, .email, .why{
+        font-size: 1.5em;
+     }
+  }
+    @media only screen and (max-width: 700px){
+    .form {
+        padding: 2em 5em;
+        }
+  }
+  @media only screen and (max-width: 600px){
+    #aboutus h2{
+        font-size: 2em;
+    }
+    .us{
+        display: flex;
+        flex-direction: column;
+    }
+    .ourstudio{
+        font-size: 1.5em; 
+  }
+}
+
+  @media only screen and (max-width: 375px){
+    .navbar {
+        width: 100vw;
+    }
+
+    .nav-link {
+        font-size: 24px;
+    }
+
+    #carouselAutoplaying{
+        margin-top: 75px;
+    }
+
+    .container-fluid{
+        width: 100vw;
+        padding: 0;
+    }
+    .navbar-brand > img {
+        height: 2em;
+    }
+    h1 {
+        margin: 1em;
+        font-size: 2em;
+        padding-top: 1em;
+    }
+    .texto{
+        font-size: 2em;
+    }
+    .ourstudio{
+        font-size: 1.5em; 
+        display: flex;
+        text-align: center;
+    }
+    .us{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        font-size: 1em; 
+        margin: 1em ;
+    }
+    form {
+        padding: 0;
+    }
+
+    .form {
+        padding: 1em 1em;
+        width: 80%;
+        margin: 0;
+        }
+    .nombre, .email, .why{
+        font-size: 1em;
+        }
+        #footer {
+            height: 10vh;
+            width: 100vw;
+        }
+        
+        #footer > img {
+            height: 5vh;
+        }
+        
+        .socials{
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .socials > a > i {
+            font-size: 1em;
+            color: #222222;
+        }
+        
+        .socials > a > i:hover {
+            color: #D59FFF;
+        }
+  }
