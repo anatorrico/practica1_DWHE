@@ -67,10 +67,6 @@ header {
     margin-top: 102px;
 }
 
-.carousel-inner {
-    
-}
-
 .carousel-item {
     height: calc(100vh - 102px);
     width: 100%;
@@ -79,10 +75,9 @@ header {
 
 .carousel-item img {
     width: 100%;
-    max-height: auto;
+    height: auto;
     object-position: 50% 50%;
-    display: flex;
-    align-self: center;
+    margin: auto;
     
 }
 
