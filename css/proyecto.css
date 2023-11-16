@@ -81,6 +81,13 @@ img{
     flex-direction: row;
     justify-content: space-around;
 }
+
+.portadas img {
+    padding: 0 2em;
+    width: 100%;
+    height: auto;
+}
+
 .diez_negritos{
     position: relative;
 }
