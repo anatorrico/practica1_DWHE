@@ -64,12 +64,26 @@ header {
 
 #carouselAutoplaying {
     height: calc(100vh - 102px);
-    padding-top: 102px;
+    margin-top: 102px;
 }
 
-.bd-placeholder-img{
+.carousel-inner {
+    
+}
+
+.carousel-item {
     height: calc(100vh - 102px);
     width: 100%;
+    
+}
+
+.carousel-item img {
+    width: 100%;
+    max-height: auto;
+    object-position: 50% 50%;
+    display: flex;
+    align-self: center;
+    
 }
 
 section{
