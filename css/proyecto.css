@@ -45,6 +45,10 @@ img{
     flex-direction: row;
     justify-content: space-around;
 }
+.cubiertas img{
+    width: 30%;
+    height: auto;
+}
 .portadas{
     display: flex;
     flex-direction: row;
@@ -106,4 +110,40 @@ img{
     color:#FFFFFF;
     font-size: 1.5em;
     margin:2em 10em;
+}
+
+@media only screen and (max-width: 1024px){
+    .explicacion{
+        margin:2em 5em;
+    }
+}
+@media only screen and (max-width: 700px){
+    .texto{
+        font-size: 2em;
+    }
+    .explicacion{
+        margin:2em 2em;
+    }
+}
+@media only screen and (max-width: 500px){
+    .cubiertas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cubiertas img{
+        width: 80%;
+    }
+    
+    .portadas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 375px){
+
+    .explicacion{
+        font-size: 1em;
+    }
 }

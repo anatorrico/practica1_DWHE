@@ -250,6 +250,9 @@ section > p{
     .form {
         padding: 2em 5em;
         }
+        .texto{
+            font-size: 2em;
+        }
   }
   @media only screen and (max-width: 600px){
     #aboutus h2{
