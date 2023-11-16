@@ -233,21 +233,66 @@ button.btn.btn-primary {
 
 @media only screen and (max-width: 800px) {
 
+    #portfolio {
+        display: block;
+        width: 80%;
+    }
+
     #galeria .row {
         flex-direction: column;
     }
 
     #galeria .col1 {
         width: 100%;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        margin: 0;
-        padding: 0;
     }
 
     .project {
-        width: 80vw;
-        /* align-items: center; */
+        width: fit-content;
     }
+
+    .movimiento-portfolio {
+        width: 100vw;
+    }
+
+    .description {
+        max-width: 400px;
+    }
+
+    button.btn.btn-primary {
+        top: 50%;
+        left: 50%;
+        position: relative;
+    }
+
+    #collapse {
+        left: 10%;
+        position: relative;
+    }
+
+    .vermas > h3 {
+        font-size: 1.5em;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    #galeria .col1 {
+        width: 90%;
+    }
+
+    button.btn.btn-primary {
+        left: 35%;
+    }
+
+    .vermas > img {
+        width: 120%;
+    }
+
 }
 
 

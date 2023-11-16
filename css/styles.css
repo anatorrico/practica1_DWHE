@@ -66,16 +66,13 @@ header {
 #carouselAutoplaying {
     height: calc(100vh - 102px);
 }
-main
 .carousel-item {
     width: 100%;
 }
 
 .carousel-item img {
     width: 100%;
-
     height: auto;
-main
     object-position: 50% 50%;
     margin: auto;
     
@@ -267,6 +264,10 @@ section > p{
     }
     .ourstudio{
         font-size: 1.5em; 
+  }
+
+  #carouselAutoplaying{
+    margin-top: 102px;
   }
 }
 
