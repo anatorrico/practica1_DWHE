@@ -1,0 +1,128 @@
+h1 {
+    margin: 2em 0;
+    font-family:'Merriweather', serif;
+    font-size: 4em;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #89023E ;
+}
+
+header {
+    height: 20vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-brand > img {
+    height: 3em;
+    width: 100%;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #D59FFF;
+    align-items: flex-end;
+}
+
+#navbarNavAltMarkup {
+    font-size: 2em;
+}
+
+.navbar-toggler {
+    border: none;
+    --bs-navbar-toggler-hover-border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.movimiento-proyecto{
+    background-color: #E56B70;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 2em;
+}
+.texto{
+    color: #FFFFFF;
+    font-family:'Merriweather', serif;
+    font-size: 3em;
+}
+img{
+    margin:2em 0;
+}
+.cubiertas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.portadas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.portadas div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.diez_negritos{
+    position: relative;
+}
+.diez_negritos .abierto{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: .5s;
+}
+.diez_negritos:hover .abierto{
+    opacity: 1;
+}
+.muerte_enel_nilo{
+    position: relative;
+}
+.muerte_enel_nilo .abierto{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: .5s;
+}
+.muerte_enel_nilo:hover .abierto{
+    opacity: 1;
+}
+.asesinato_enel_orient{
+    position: relative;
+}
+.asesinato_enel_orient .abierto{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: .5s;
+}
+.asesinato_enel_orient:hover .abierto{
+    opacity: 1;
+}
+.explicacion{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#FFFFFF;
+    font-size: 1.5em;
+    margin:2em 10em;
+}

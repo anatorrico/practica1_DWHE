@@ -99,8 +99,18 @@ section{
 #aboutus h2{
     color: #FFFFFF;
     font-family:'Merriweather', serif;
-    font-size: 1.5em;
+    font-size: 3em;
 }
+.equipo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.us {
+   display: flex;
+   justify-content: center;
+}
+
 section >h2 {
     color: #FFFFFF;
     font-family:'Merriweather', serif;
@@ -112,14 +122,58 @@ section > p{
     font-size: 1.5em;
     margin-top: 1em;
 }
+
 .movimiento-contactus{
     background-color: #D59FFF ;
     width: 100%;
     display: flex;
     text-align: center;
 }
-
-
+.contact{
+    color: #FFFFFF;
+    font-family:'Merriweather', serif;
+    font-size: 2em; 
+    display: flex;
+    text-align: center;
+    margin: 2em ;
+}
+.formulario{
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #D59FFF;
+    font-family:'Merriweather', serif;
+    width: fit-content;
+    border-radius: 1%;
+    padding: 2em;
+    
+  }
+.escribenos{
+    font-family:'Merriweather', serif;
+    color: #542c73;
+    font-size: 2em;
+}
+ .nombre, .email, .why{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    color: #542c73;
+ }
+.boton{
+   background-color: #542c73;
+   color: #D59FFF;
+}
+.boton:hover{
+    background-color: #D59FFF;
+   color: #542c73;
+   transition: .2s;
+   
+}
 
 #footer {
     height: 30vh;
