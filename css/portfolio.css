@@ -121,3 +121,7 @@ h3.cor {
 h3.red {
     color: #89023E;
 }
+
+.project > a {
+    text-decoration: none;
+}
